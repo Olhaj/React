@@ -1,0 +1,30 @@
+li {
+  margin-right: 15px;
+  padding-bottom: 10px;
+}
+
+.btn_list {
+  color: white;
+  margin-left: 20px;
+  padding: 6px;
+  border: none;
+  border-radius: 6px;
+  background-color: green;
+  cursor: pointer;
+}
+
+.btn {
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background-color: green;
+  cursor: pointer;
+}
+
+.btn:active,
+.btn_list:active,
+.btn:focus {
+  color: black;
+  background-color: rgb(115, 207, 115);
+}
