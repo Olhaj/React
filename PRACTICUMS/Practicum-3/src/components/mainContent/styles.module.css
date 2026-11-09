@@ -1,0 +1,31 @@
+main {
+  max-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--text);
+  background-color: var(--main-background);
+}
+
+.main_container {
+  max-width: 600px;
+  margin: 100px 0;
+}
+
+.main_first__container {
+  padding-bottom: 40px;
+}
+
+h3 {
+  padding-bottom: 30px;
+  font-size: 22px;
+  text-align: center;
+}
+
+.main_first__container > p {
+  padding-left: 50px;
+}
+
+.main_second__container {
+  max-width: 800px;
+}

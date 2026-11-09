@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  transition:
+    background-color 0.3s,
+    color 0.3s;
+}
+
+/* Значения цветов для светлой темы */
+.app.light {
+  --background: #add8e6;
+  --main-background: #c4dfe6;
+  --text: #00007a;
+  --border: #00007a;
+  --button-background: #add8e6;
+  --button-text: #415d6c;
+  --paragraph-text: #8499a8;
+}
+
+/* Значения цветов для тёмной темы */
+.app.dark {
+  --background: #063f52;
+  --main-background: #224652;
+  --text: #add8e6;
+  --border: #add8e6;
+  --button-background: #010080;
+  --button-text: #bec2e0;
+  --paragraph-text: #a1c8d5;
+}
