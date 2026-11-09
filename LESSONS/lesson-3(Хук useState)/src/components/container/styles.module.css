@@ -1,0 +1,12 @@
+.box {
+  background-color: red;
+}
+
+.button {
+  border: 2px solid green;
+}
+
+.container {
+  max-width: 320px;
+  border: 2px solid yellow;
+}
