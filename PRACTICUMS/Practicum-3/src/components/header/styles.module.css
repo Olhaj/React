@@ -1,0 +1,19 @@
+header {
+  background-color: var(--background);
+}
+
+.header_container {
+  display: flex;
+  padding: 20px 0 40px 15px;
+}
+
+.header_title {
+  padding: 10px 10px;
+  color: var(--text);
+  font-size: 24px;
+  text-align: center;
+}
+
+.header_line {
+  border: 2px solid var(--border);
+}
