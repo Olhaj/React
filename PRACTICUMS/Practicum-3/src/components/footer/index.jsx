@@ -1,8 +1,8 @@
 import styles from "./styles.module.css";
 
-function Footer({ theme }) {
+function Footer(props) {
   return (
-    <footer className={`footer ${theme}`}>
+    <footer className={`footer ${props.theme}`}>
       <div className={styles.footer_line}></div>
       <div className={styles.footer_link}>
         <a href="#">CopyRight</a>
