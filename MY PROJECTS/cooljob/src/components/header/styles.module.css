@@ -1,0 +1,54 @@
+.hero {
+  margin-top: 30px;
+}
+
+.top_bar {
+  white-space: nowrap;
+  margin-bottom: 34px;
+}
+
+.top_bar,
+.nav_link,
+.menu_nav,
+.account {
+  display: flex;
+  align-items: center;
+}
+
+.menu_nav {
+  gap: 53px;
+  padding-left: 109px;
+}
+
+.account {
+  gap: 39px;
+  margin-left: 65%;
+}
+
+.top_bar > a,
+.menu_nav > a,
+.login {
+  color: var(--link_text);
+  text-decoration: none;
+  text-align: center;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.register {
+  color: var(--link_text);
+  text-decoration: none;
+  text-align: center;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.login {
+  width: 65px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--background_color_link);
+}
+
