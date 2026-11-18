@@ -8,11 +8,13 @@ function Header() {
         <a href="#">
           <img src={cooljob} alt="Logo" />
         </a>
-        <div className={styles.nav_link}>
-          <nav className={styles.hero_nav}>
+
+        <nav className={styles.nav_link}>
+          <div className={styles.menu_nav}>
             <a href="#">Поиск работы</a>
             <a href="#">Поиск стартапов</a>
-          </nav>
+          </div>
+
           <div className={styles.account}>
             <a className={styles.register} href="#">
               Регистрация
@@ -21,7 +23,7 @@ function Header() {
               Вход
             </a>
           </div>
-        </div>
+        </nav>
       </header>
     </main>
   );
