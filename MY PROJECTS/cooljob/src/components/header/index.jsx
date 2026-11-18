@@ -1,5 +1,30 @@
+import styles from "./styles.module.css";
+import cooljob from "../../assets/icons/cooljob.svg";
+
 function Header() {
-  return <></>;
+  return (
+    <main className={styles.hero}>
+      <header className={styles.top_bar}>
+        <a href="#">
+          <img src={cooljob} alt="Logo" />
+        </a>
+        <div className={styles.nav_link}>
+          <nav className={styles.hero_nav}>
+            <a href="#">Поиск работы</a>
+            <a href="#">Поиск стартапов</a>
+          </nav>
+          <div className={styles.account}>
+            <a className={styles.register} href="#">
+              Регистрация
+            </a>
+            <a className={styles.login} href="#">
+              Вход
+            </a>
+          </div>
+        </div>
+      </header>
+    </main>
+  );
 }
 
 export default Header;

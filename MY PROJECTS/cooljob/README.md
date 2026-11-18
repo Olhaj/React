@@ -1,16 +1,27 @@
-# React + Vite
+import "./App.css";
+import cooljobLogo from "./assets/icons/cooljob.svg";
+import cooljobLogo2 from "./assets/icons/cooljob.svg";
+import cooljobLogo3 from "./assets/icons/cooljob.svg";
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+const vacansies = [
+{ id: 1, title: "manager", icon: cooljobLogo },
+{ id: 2, title: "admin", icon: cooljobLogo2 },
+{ id: 3, title: "it", icon: cooljobLogo3 },
+];
 
-Currently, two official plugins are available:
+function App() {
+return (
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<div>
+{vacansies.map((vacancy) => {
+return (
+<div key={vacancy.id}>
+<h3>{vacancy.title}</h3>
+<img src={vacancy.icon} alt="icon" />
+</div>
+);
+})}
+</div>
+);
+}
+export default App;

@@ -1,0 +1,29 @@
+.hero {
+  margin: 30px;
+}
+
+.top_bar {
+  display: flex;
+  margin-bottom: 34x;
+}
+
+.nav_link {
+  display: flex;
+  align-items: center;
+}
+
+.hero_nav {
+  display: flex;
+  padding-left: 109px;
+  gap: 53px;
+}
+
+.account {
+  display: flex;
+  gap: 39px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--link_text);
+}
