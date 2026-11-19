@@ -4,7 +4,7 @@ import cooljob from "../../assets/icons/cooljob.svg";
 function Header() {
   return (
     <main className={styles.hero}>
-      <header className={styles.top_bar}>
+      <header id="top" className={styles.top_bar}>
         <a href="#">
           <img src={cooljob} alt="Logo" />
         </a>
