@@ -1,0 +1,9 @@
+.category_section {
+  margin: 107px 100px 134px;
+}
+
+.category_section > h3 {
+  padding-bottom: 43px;
+  font-weight: 700;
+  font-size: 28px;
+}

@@ -1,4 +1,8 @@
 :root {
   --link_text: #000000cc;
   --background_color_link: #ffffff;
+  --text_white: #ffffff;
+  --background_color_footer: #52606d;
+  --line_footer: #465461;
+  --link_text_footer: #d0e8ff;
 }

@@ -1,0 +1,29 @@
+.vacancy_section {
+  margin: 0 100px 151px 100px;
+}
+
+.vacancy_section > h3 {
+  padding-bottom: 12px;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.vacancy_section > p {
+  padding-bottom: 43px;
+  color: #8d8d8dcc;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.vacancy_btn {
+  display: block;
+  margin: 91px auto 0;
+  border: none;
+  padding: 20px 50px;
+  color: #ffffff;
+  background-color: #274059;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+}
