@@ -97,6 +97,7 @@
 }
 
 .companies_content > h3 {
+  white-space: nowrap;
   color: #696969cc;
   font-weight: 600;
   font-size: 16px;

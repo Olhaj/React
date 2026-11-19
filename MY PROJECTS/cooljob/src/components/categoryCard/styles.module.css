@@ -1,0 +1,34 @@
+.categories_card {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 92px;
+  grid-row-gap: 35px;
+  flex-wrap: nowrap;
+  transition:
+    transform 180ms ease,
+    box-shadow 180ms ease;
+}
+
+.categories_box {
+  width: 270px;
+  height: 198px;
+  padding: 63px 0 0 32px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px #00000026;
+  cursor: pointer;
+}
+
+.categories_box:hover {
+  transform: scale(1.04);
+  box-shadow: 0 6px 14px rgb(0 0 0 / 14%);
+}
+
+img {
+  margin-bottom: 23px;
+}
+
+.categories_box:last-child {
+  border: 2px solid #000000a6;
+  background-color: transparent;
+}

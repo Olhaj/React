@@ -1,3 +1,4 @@
+import CategoryCardList from "../../components/categoryCardList";
 import Header from "../../components/header";
 import SearchBar from "../../components/searchBar";
 
@@ -6,6 +7,7 @@ function Home() {
     <>
       <Header />
       <SearchBar />
+      <CategoryCardList />
     </>
   );
 }
