@@ -1,14 +1,10 @@
-.hero {
-  margin: 30px 100px 0;
-}
-
 .top_bar {
   white-space: nowrap;
-  margin-bottom: 34px;
+  margin: 30px 100px 34px;
 }
 
 .top_bar,
-.nav_link,
+.header_logo,
 .menu_nav,
 .account {
   display: flex;

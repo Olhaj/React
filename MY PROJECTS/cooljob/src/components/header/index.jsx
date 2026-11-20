@@ -3,29 +3,25 @@ import cooljob from "../../assets/icons/cooljob.svg";
 
 function Header() {
   return (
-    <main className={styles.hero}>
-      <header id="top" className={styles.top_bar}>
-        <a href="#">
-          <img src={cooljob} alt="Logo" />
+    <header id="top" className={styles.top_bar}>
+      <a className={styles.header_logo} href="#">
+        <img src={cooljob} alt="Logo" />
+      </a>
+
+      <div className={styles.menu_nav}>
+        <a href="#">Поиск работы</a>
+        <a href="#">Поиск стартапов</a>
+      </div>
+
+      <div className={styles.account}>
+        <a className={styles.register} href="#">
+          Регистрация
         </a>
-
-        <nav className={styles.nav_link}>
-          <div className={styles.menu_nav}>
-            <a href="#">Поиск работы</a>
-            <a href="#">Поиск стартапов</a>
-          </div>
-
-          <div className={styles.account}>
-            <a className={styles.register} href="#">
-              Регистрация
-            </a>
-            <a className={styles.login} href="#">
-              Вход
-            </a>
-          </div>
-        </nav>
-      </header>
-    </main>
+        <a className={styles.login} href="#">
+          Вход
+        </a>
+      </div>
+    </header>
   );
 }
 

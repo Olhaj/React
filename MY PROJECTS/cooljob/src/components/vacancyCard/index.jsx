@@ -79,7 +79,7 @@ function VacancyCard() {
                 className={styles.dot}
                 style={{
                   backgroundColor: vacancy.color,
-                  border: vacancy.color,
+                  borderColor: vacancy.color,
                 }}
               ></div>
               <span>{vacancy.category}</span>
