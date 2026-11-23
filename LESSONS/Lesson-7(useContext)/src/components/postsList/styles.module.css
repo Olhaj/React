@@ -1,0 +1,13 @@
+.box_list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  list-style: none;
+}
+
+.list {
+  border-radius: 10px;
+  border: 2px solid palevioletred;
+  background-color: pink;
+  padding: 20px;
+}
