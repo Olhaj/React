@@ -1,0 +1,6 @@
+.title_posts {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-left: 50px;
+}
