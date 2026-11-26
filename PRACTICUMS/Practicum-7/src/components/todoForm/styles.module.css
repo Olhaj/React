@@ -1,0 +1,25 @@
+.todo_form {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.todo_input {
+  padding: 6px;
+  border-radius: 7px;
+  border: 1px solid white;
+  background-color: #c4a6cb;
+}
+
+.todo_input::placeholder {
+  color: white;
+}
+
+.todo_btn {
+  padding: 5px;
+  color: white;
+  border-radius: 4px;
+  border: 1px solid white;
+  background-color: #8e93dc;
+  cursor: pointer;
+}

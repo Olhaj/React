@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* задача 1 */
+/* body {
+  height: 100vh;
+  background-color: #b7afc7;
+}
+
+.todo_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px auto;
+}
+
+.todo_box > h1 {
+  color: white;
+  padding-bottom: 20px;
+} */
+
+/* задача 2 */
+
+body {
+  height: 100vh;
+  background-color: #c4ddc0;
+}
+
+.blog-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 60px auto;
+}

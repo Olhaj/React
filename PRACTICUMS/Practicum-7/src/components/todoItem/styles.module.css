@@ -1,0 +1,25 @@
+.todo_box_list {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid black;
+  background-color: #9fa3cc;
+  gap: 6px;
+  box-shadow:
+    0 -5px 12px rgba(0, 0, 0, 0.12),
+    /* сверху */ -5px 0 12px rgba(0, 0, 0, 0.12),
+    /* слева */ 5px 0 12px rgba(0, 0, 0, 0.12); /* справа */
+}
+
+.todo_text {
+  color: white;
+}
+
+.todo_delete {
+  padding: 0 4px;
+  border-radius: 6px;
+  color: black;
+  border: 1px solid black;
+  background-color: white;
+  box-shadow: 0 2px 2px 0;
+}
