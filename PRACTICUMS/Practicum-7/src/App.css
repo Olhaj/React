@@ -4,7 +4,8 @@
   box-sizing: border-box;
 }
 
-body {
+/* задача 1 */
+/* body {
   height: 100vh;
   background-color: #b7afc7;
 }
@@ -19,4 +20,18 @@ body {
 .todo_box > h1 {
   color: white;
   padding-bottom: 20px;
+} */
+
+/* задача 2 */
+
+body {
+  height: 100vh;
+  background-color: #c4ddc0;
+}
+
+.blog-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 60px auto;
 }

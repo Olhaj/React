@@ -1,0 +1,12 @@
+.article {
+  border-radius: 8px;
+  border: 2px solid #6cac80;
+  background-color: #9ccaa5;
+  margin: 0 50px;
+  padding: 25px;
+}
+
+.article > p {
+  padding-bottom: 15px;
+  color: #497241;
+}
